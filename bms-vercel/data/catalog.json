@@ -1,0 +1,225 @@
+{
+  "zones": [
+    {
+      "key": "پذیرایی و هال",
+      "icon": "bi-house-door-fill",
+      "title": "پذیرایی و هال مدرن"
+    },
+    {
+      "key": "اتاق خواب",
+      "icon": "bi-lamp-fill",
+      "title": "اتاق خواب",
+      "group": true,
+      "sub": [
+        {
+          "key": "اتاق خواب مستر",
+          "icon": "bi-lamp-fill",
+          "title": "اتاق خواب مستر",
+          "desc": "نورپردازی، پرده و صحنه‌های آرامش‌بخش"
+        },
+        {
+          "key": "اتاق خواب کودک",
+          "icon": "bi-balloon-heart-fill",
+          "title": "اتاق خواب کودک",
+          "desc": "روشنایی ایمن و سرگرم‌کننده برای فضای کودک"
+        },
+        {
+          "key": "اتاق کار",
+          "icon": "bi-briefcase-fill",
+          "title": "اتاق کار",
+          "desc": "تجهیزات هوشمند برای تمرکز و بهره‌وری"
+        }
+      ]
+    },
+    {
+      "key": "آشپزخانه هوشمند",
+      "icon": "bi-cup-hot-fill",
+      "title": "آشپزخانه و لایتینگ"
+    },
+    {
+      "key": "سیستم حفاظتی و پارکینگ",
+      "icon": "bi-shield-lock-fill",
+      "title": "سیستم امنیتی و پارکینگ"
+    }
+  ],
+  "showcase": {
+    "security": {
+      "title": "سیستم‌های امنیتی",
+      "subtitle": "دوربین، دزدگیر و حفاظت هوشمند از خانه",
+      "icon": "bi-shield-lock-fill",
+      "fallback_icon": "bi-camera-video-fill",
+      "color": "#ef4444",
+      "products": [
+        {
+          "id": 3001,
+          "name": "آیفون هوشمند کدینگ مدل TC5000D",
+          "price": 60400000,
+          "image": "images/tcda1 (1).svg"
+        },
+        {
+          "id": 3002,
+          "name": "آیفون تصویری Akuvox R20K",
+          "price": 100900000,
+          "image": "images/r20k.png"
+        },
+        {
+          "id": 3003,
+          "name": "آیفون هوشمند Akuvox R29",
+          "price": 100000000,
+          "image": "images/r29.png"
+        },
+        {
+          "id": 3004,
+          "name": "آیفون تصویری هوشمند Akuvox S535",
+          "price": 192690000,
+          "image": "images/s535-1.png"
+        },
+        {
+          "id": 3005,
+          "name": "آیفون تصویری هوشمند Akuvox S539",
+          "price": 150000000,
+          "image": "images/s539.png"
+        },
+        {
+          "id": 3006,
+          "name": " Akuvox مدل S532 ",
+          "price": 141900000,
+          "image": "images/s532.png"
+        },
+        {
+          "id": 3007,
+          "name": "سنسور بازشدن در و پنجره",
+          "price": 650000,
+          "image": "images/showcase/security/7.jpg"
+        },
+        {
+          "id": 3008,
+          "name": "دکمه اضطراری هوشمند SOS",
+          "price": 780000,
+          "image": "images/showcase/security/8.jpg"
+        }
+      ]
+    },
+    "handles": {
+      "title": "دستگیره‌های هوشمند",
+      "subtitle": "ورود امن و بدون کلید به سبک مدرن",
+      "icon": "bi-door-closed-fill",
+      "fallback_icon": "bi-fingerprint",
+      "color": "#3b82f6",
+      "products": [
+        {
+          "id": 3101,
+          "name": "دستگیره هوشمند اثر انگشت مدل کلاسیک",
+          "price": 4200000,
+          "image": "images/g10.webp"
+        },
+        {
+          "id": 3102,
+          "name": "دستگیره هوشمند کارتی و رمز عبور",
+          "price": 3600000,
+          "image": "images/Retina20.jpg"
+        },
+        {
+          "id": 3103,
+          "name": "دستگیره هوشمند تشخیص چهره",
+          "price": 7500000,
+          "image": "images/P20.jpg"
+        },
+        {
+          "id": 3104,
+          "name": "دستگیره هوشمند اپلیکیشنی (WiFi)",
+          "price": 5100000,
+          "image": "images/rook-H210.jpg"
+        },
+        {
+          "id": 3105,
+          "name": "دستگیره هوشمند ضدآب ویژه حیاط",
+          "price": 4800000,
+          "image": "images/P30.jpg"
+        },
+        {
+          "id": 3106,
+          "name": "دستگیره هوشمند اداری چندکاربره",
+          "price": 6300000,
+          "image": "images/showcase/handles/6.jpg"
+        },
+        {
+          "id": 3107,
+          "name": "دستگیره هوشمند مینیمال طلایی",
+          "price": 4950000,
+          "image": "images/showcase/handles/7.jpg"
+        },
+        {
+          "id": 3108,
+          "name": "دستگیره هوشمند با باز کردن از راه دور",
+          "price": 5700000,
+          "image": "images/showcase/handles/8.jpg"
+        }
+      ]
+    },
+    "outlets": {
+      "title": "پریزهای توکار هوشمند",
+      "subtitle": "مدیریت مصرف برق با ظاهری مینیمال",
+      "icon": "bi-plug-fill",
+      "fallback_icon": "bi-plug-fill",
+      "color": "#10b981",
+      "products": [
+        {
+          "id": 3201,
+          "name": "پریز توکار هوشمند تک‌خانه",
+          "price": 950000,
+          "image": "images/10058.jpg"
+        },
+        {
+          "id": 3202,
+          "name": "پریز توکار هوشمند دوخانه",
+          "price": 1350000,
+          "image": "images/10068.jpg"
+        },
+        {
+          "id": 3203,
+          "name": "پریز توکار هوشمند با پورت شارژ USB-C",
+          "price": 1650000,
+          "image": "images/10118.jpg"
+        },
+        {
+          "id": 3204,
+          "name": "پریز توکار هوشمند با نمایشگر میزان مصرف برق",
+          "price": 2100000,
+          "image": "images/10120.jpg"
+        },
+        {
+          "id": 3205,
+          "name": "پریز توکار هوشمند ضدجرقه",
+          "price": 1150000,
+          "image": "images/factor FBI+.jpg"
+        },
+        {
+          "id": 3206,
+          "name": "پریز توکار هوشمند صنعتی سه‌فاز",
+          "price": 2800000,
+          "image": "images/لومباردی.jpg"
+        },
+        {
+          "id": 3207,
+          "name": "پریز توکار هوشمند با کنترل اپلیکیشنی",
+          "price": 1450000,
+          "image": "images/لومباردی.jpg"
+        },
+        {
+          "id": 3208,
+          "name": "پریز توکار هوشمند مدل مخفی (پاپ‌آپ)",
+          "price": 1950000,
+          "image": "images/showcase/outlets/8.jpg"
+        }
+      ]
+    }
+  },
+  "panels": {
+    "title": "تاچ‌پنل‌های هوشمند",
+    "subtitle": "کنترل هوشمند روشنایی و تجهیزات با یک لمس",
+    "icon": "bi-grid-3x3-gap-fill",
+    "fallback_icon": "bi-cpu-fill",
+    "color": "#f59e0b"
+  }
+}

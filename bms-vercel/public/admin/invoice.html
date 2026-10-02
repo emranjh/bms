@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <title>پیش‌فاکتور</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastinfar/vazirmatn-font@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            padding: 30px;
+            background: #fff;
+            color: #1e293b;
+            direction: rtl;
+        }
+        .invoice-box {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #cbd5e1;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .info-table, .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .info-table td {
+            padding: 6px;
+            font-size: 14px;
+        }
+        .items-table th, .items-table td {
+            border: 1px solid #cbd5e1;
+            padding: 10px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .items-table th {
+            background-color: #f1f5f9;
+        }
+        .total-price {
+            background: #dcfce7;
+            color: #15803d;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: left;
+            font-size: 16px;
+        }
+        @media print {
+            body { padding: 0; }
+            .invoice-box { border: none; }
+        }
+    
+        .err { text-align: center; color: #b91c1c; padding: 40px; }
+    </style>
+</head>
+<body>
+<div class="invoice-box" id="box" style="display:none">
+    <div class="header">
+        <h2>پیش‌فاکتور تجهیزات هوشمندسازی (BMS)</h2>
+        <p>شماره فاکتور: <span id="invId"></span></p>
+    </div>
+    <table class="info-table">
+        <tr>
+            <td><strong>نام مشتری:</strong> <span id="cName"></span></td>
+            <td><strong>شماره تماس:</strong> <span id="cPhone" dir="ltr"></span></td>
+        </tr>
+    </table>
+    <table class="items-table">
+        <thead><tr><th>فضا / زون</th><th>نام تجهیز</th><th>تعداد</th></tr></thead>
+        <tbody id="rows"></tbody>
+    </table>
+    <div class="total-price">مبلغ کل: <span id="total"></span> تومان</div>
+</div>
+<div class="err" id="err" style="display:none"></div>
+<script src="/admin/invoice.js"></script>
+</body>
+</html>
